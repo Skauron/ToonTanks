@@ -16,6 +16,38 @@
 		"directory": "E:\\Unreal\\5.4.3\\UE_5.4\\Engine\\Source"
 	},
 	{
+		"file": "E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\Source\\ToonTanks\\HealthComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
+		],
+		"directory": "E:\\Unreal\\5.4.3\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\Source\\ToonTanks\\HealthComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
+		],
+		"directory": "E:\\Unreal\\5.4.3\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\Source\\ToonTanks\\Projectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
+		],
+		"directory": "E:\\Unreal\\5.4.3\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\Source\\ToonTanks\\Projectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
+		],
+		"directory": "E:\\Unreal\\5.4.3\\UE_5.4\\Engine\\Source"
+	},
+	{
 		"file": "E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\Source\\ToonTanks\\Tank.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
@@ -49,6 +81,22 @@
 	},
 	{
 		"file": "E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\Source\\ToonTanks\\ToonTanks.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
+		],
+		"directory": "E:\\Unreal\\5.4.3\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\Source\\ToonTanks\\Tower.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
+		],
+		"directory": "E:\\Unreal\\5.4.3\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\Source\\ToonTanks\\Tower.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
 			"@E:\\Proyectos Unreal\\MyFirstProject\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
