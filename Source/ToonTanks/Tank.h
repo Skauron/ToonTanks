@@ -19,10 +19,16 @@ public:
 	ATank();
 
 	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void HandleDestruction();
+
+	APlayerController *GetTankPlayerController() const { return TankPlayerController; }
+
+	bool bAlive = true;
 
 protected:
 	// Called when the game starts or when spawned
@@ -30,9 +36,9 @@ protected:
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	class USpringArmComponent* SpringArmComp;
+	class USpringArmComponent *SpringArmComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	class UCameraComponent* CameraComp;
+	class UCameraComponent *CameraComp;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
 	float Speed = 200.f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
@@ -40,5 +46,5 @@ private:
 
 	void Move(float Value);
 	void Turn(float Value);
-	APlayerController* PlayerControllerRef;
+	APlayerController *TankPlayerController;
 };
