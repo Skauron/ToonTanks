@@ -54,4 +54,5 @@ void ABasePawn::Fire()
 
 	AProjectile* Projectile = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, ProjectileSpawnPoint->GetComponentLocation(), ProjectileSpawnPoint->GetComponentRotation());
 	Projectile->SetOwner(this);
+	UE_LOG(LogTemp, Warning, TEXT("DISPARE"));
 }
